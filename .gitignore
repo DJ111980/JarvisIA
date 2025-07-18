@@ -1,0 +1,32 @@
+# Archivos de entorno virtual
+# Esta carpeta contiene todas las librerías que instalamos,
+# no se debe subir. Cada persona que descargue el proyecto
+# las instalará usando 'requirements.txt'.
+env/
+/env/
+
+# Archivos de caché de Python
+# Python crea estas carpetas para acelerar la ejecución, son temporales.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs y editores (ej. VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Archivo de variables de entorno
+# ¡NUNCA SUBAS TUS CLAVES SECRETAS O TOKENS A GITHUB!
+# Este archivo es local y cada usuario debe crear el suyo.
+.env
+
+# Modelos de IA y otros datos pesados
+# Son demasiado grandes para GitHub y cada usuario debe descargarlos.
+models/
+
+# Archivos de dependencias específicas de una máquina
+*.egg-info/

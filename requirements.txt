@@ -1,0 +1,15 @@
+# Core
+requests
+
+# STT (Voz a Texto) y Hotword
+vosk
+sounddevice
+numpy<2
+
+# TTS (Texto a Voz)
+pyttsx3
+pypiwin32
+pyaudio
+
+# GUI
+PyQt5
